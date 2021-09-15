@@ -25,8 +25,8 @@ class Main(object):
             print 'must input node_id'
             exit(0)
 
-        mysql_conn = mysql.connector.connect(user='root', password='@123MhxzKhl',
-                                             host='10.96.108.195',
+        mysql_conn = mysql.connector.connect(user='root', password='123456',
+                                             host='127.0.0.1',
                                              database='machine_learning')
         treeNode = reversi_board_status.ReversiBoardStatus.getTreeNode(mysql_conn, sys.argv[1])
         if not treeNode:

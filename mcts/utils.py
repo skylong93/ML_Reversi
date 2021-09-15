@@ -3,7 +3,7 @@ import uuid
 import redis
 
 class Utils(object):
-    r = redis.StrictRedis(host='10.96.108.195', port=6379, password="@123MhxzKhl")
+    r = redis.StrictRedis(host='127.0.0.1', port=6379, password="123456")
 
     @staticmethod
     def getNodeId():

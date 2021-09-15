@@ -10,5 +10,5 @@ class Const(object):
     WHITE = 2
     IS_NOT_TERMINAL = 1
     IS_TERMINAL = 2
-    REDIS_CONF = {"host": "10.96.108.195", "port": 6379, "password": "@123MhxzKhl"}
-    MYSQL_CONF = {'user': 'root', 'password': '@123MhxzKhl', 'host': '10.96.108.195', 'database': 'machine_learning'}
+    REDIS_CONF = {"host": "127.0.0.1", "port": 6379, "password": "123456"}
+    MYSQL_CONF = {'user': 'root', 'password': '123456', 'host': '127.0.0.1', 'database': 'machine_learning'}
